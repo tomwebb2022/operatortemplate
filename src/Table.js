@@ -1,18 +1,30 @@
 import React, { useState, useEffect, useContext } from "react";
 
-function Table({ input }) {
-  const parsedInput = parseFloat(input);
-
-  if (isNaN(parsedInput)) {
-    return <div> </div>;
-  }
-
-  const week1 = input * 0.7;
-  const week2 = input * 0.8;
-  const week3 = input * 0.9;
-  const week4 = input * 0.75;
-  const week5 = input * 0.85;
-  const week6 = input * 0.95;
+function Table({ input1, input2, input3 }) {
+  // Week 1 of all workouts at 70% of 1RM
+  const week1w1 = input1 * 0.7;
+  const week1w2 = input2 * 0.7;
+  const week1w3 = input3 * 0.7;
+  //  Week 2 of all workouts at 80% of 1RM
+  const week2w1 = input1 * 0.8;
+  const week2w2 = input2 * 0.8;
+  const week2w3 = input3 * 0.8;
+  //  Week 3 of all workouts at 90% of 1RM
+  const week3w1 = input1 * 0.9;
+  const week3w2 = input2 * 0.9;
+  const week3w3 = input3 * 0.9;
+  //  Week 4 of all workouts at 75% of 1RM
+  const week4w1 = input1 * 0.75;
+  const week4w2 = input2 * 0.75;
+  const week4w3 = input3 * 0.75;
+  // Week 5 of all workouts at 85% of 1RM
+  const week5w1 = input1 * 0.85;
+  const week5w2 = input2 * 0.85;
+  const week5w3 = input3 * 0.85;
+  // Week 6 of all workouts at 95% of 1RM
+  const week6w1 = input1 * 0.95;
+  const week6w2 = input2 * 0.95;
+  const week6w3 = input3 * 0.95;
 
   return (
     <table className="Table">
@@ -29,22 +41,108 @@ function Table({ input }) {
       </thead>
       <tbody>
         <tr>
+          {/* TRAINING HERE */}
           <td>1</td>
-          <td>{week1}</td>
-          <td>{week1}</td>
-          <td>{week1}</td>
-          <td>{week1}</td>
-          <td>{week1}</td>
-          <td>{week1}</td>
+          <td>
+            3-5 x 5/ <br />
+            {week1w1}, {week1w2},{week1w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week2w1}, {week2w2},{week2w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week3w1}, {week3w2},{week3w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week4w1}, {week4w2},{week4w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week5w1}, {week5w2},{week5w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week6w1}, {week6w2},{week6w3}
+          </td>
         </tr>
         <tr>
+          {/* BLANK DAY FOR CARDIO */}
           <td>2</td>
-          <td>{week2}</td>
-          <td>{week2}</td>
-          <td>{week2}</td>
-          <td>{week2}</td>
-          <td>{week2}</td>
-          <td>{week2}</td>
+          {/* BLANK DAY FOR CARDIO */}
+        </tr>
+        <tr>
+          {/* TRAINING HERE */}
+          <td>3</td>
+          <td>
+            3-5 x 5/ <br />
+            {week1w1}, {week1w2},{week1w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week2w1}, {week2w2},{week2w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week3w1}, {week3w2},{week3w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week4w1}, {week4w2},{week4w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week5w1}, {week5w2},{week5w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week6w1}, {week6w2},{week6w3}
+          </td>
+        </tr>
+        <tr>
+          {/* BLANK DAY FOR CARDIO */}
+          <td>4</td>
+          {/* BLANK DAY FOR CARDIO */}
+        </tr>
+        <tr>
+          {/* TRAINING HERE */}
+          <td>5</td>
+          <td>
+            3-5 x 5/ <br />
+            {week1w1}, {week1w2},{week1w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week2w1}, {week2w2},{week2w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week3w1}, {week3w2},{week3w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week4w1}, {week4w2},{week4w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week5w1}, {week5w2},{week5w3}
+          </td>
+          <td>
+            3-5 x 5/ <br />
+            {week6w1}, {week6w2},{week6w3}
+          </td>
+        </tr>
+        <tr>
+          {/* BLANK DAY FOR CARDIO */}
+          <td>6</td>
+          {/* BLANK DAY FOR CARDIO */}
+        </tr>
+        <tr>
+          {/* BLANK DAY FOR CARDIO */}
+          <td>7</td>
+          {/* BLANK DAY FOR CARDIO */}
         </tr>
       </tbody>
     </table>
@@ -52,56 +150,3 @@ function Table({ input }) {
 }
 
 export default Table;
-
-// function Table() {
-//   return (
-//     <div className="Table">
-//       <table>
-//         <tr>
-//           <th scope="col">Day</th>
-//           <th scope="col">Week 1</th>
-//           <th scope="col">Week 2</th>
-//           <th scope="col">Week 3</th>
-//           <th scope="col">Week 4</th>
-//           <th scope="col">Week 5</th>
-//           <th scope="col">Week 6</th>
-//         </tr>
-//         <tr>
-//           <td>Day 1</td>
-//           <td>3-5 x5/ 70% </td>
-//           <td>3-5 x5/ 80%</td>
-//           <td>3-5 x3/ 90%</td>
-//           <td>3-5 x5/ 75%</td>
-//           <td>3-5 x3/ 85%</td>
-//           <td>3-5 x1-2/ 95%</td>
-//         </tr>
-//         <tr>
-//           <td>Day 2</td>
-//         </tr>
-//         <tr>
-//           <td>Day 3</td>
-//         </tr>
-//         <tr>
-//           <td>Day 4</td>
-//         </tr>
-//         <tr>
-//           <td>Day 5</td>
-//         </tr>
-//         <tr>
-//           <td>Day 6</td>
-//         </tr>
-//         <tr>
-//           <td>Day 7</td>
-//         </tr>
-//       </table>
-//     </div>
-//   );
-// }
-
-//write a function which takes in an input and returns 75% of that number
-// function seventyFivePercent(input) {
-//   return input * 0.75;
-// }
-// seventyFivePercent(100); // 75
-// seventyFivePercent(200); // 150
-// seventyFivePercent(300); // 225
