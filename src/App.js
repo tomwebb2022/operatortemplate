@@ -3,6 +3,7 @@ import logo from "./logo_1.png";
 import Table from "./Table";
 import Input from "./Input";
 import React, { useState } from "react";
+// checking this is uploading to GitHub
 
 function App() {
   //state to hold the 1 rep max value
