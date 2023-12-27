@@ -25,7 +25,7 @@ function Table({ input1, input2, input3 }) {
   const week6w1 = input1 * 0.95;
   const week6w2 = input2 * 0.95;
   const week6w3 = input3 * 0.95;
-
+  // checking everything is working
   return (
     <table className="Table">
       <thead>
