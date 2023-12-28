@@ -31,23 +31,14 @@
   color: #61dafb;
 }
 
-/* .Table {
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  width: 200px;
-  font-size: 16px;
-  color: white
-} */
+.Table {
+
+  width: 100%;
+  font-size: 1.2em;
+}
+
 
 .Input {
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  width: 200px;
-  font-size: 16px;
-  color: white
+
 
 }

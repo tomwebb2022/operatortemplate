@@ -98,28 +98,41 @@ function Table({ input1, input2, input3 }) {
             <br />
             {week1w1Formatted}kg <br />
             {week1w2Formatted}kg <br />
-            {week1w3Formatted}kg
+            {week1w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
-            {week2w1Formatted} {week2w2Formatted}
-            {week2w3Formatted}
+            3-5 x 5/ 80%
+            <br />
+            {week2w1Formatted}kg <br />
+            {week2w2Formatted}kg <br />
+            {week2w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
-            {week3w1Formatted}, {week3w2Formatted},{week3w3Formatted}
+            3-4 x 5/ 90%
+            <br />
+            {week3w1Formatted}kg <br />
+            {week3w2Formatted}kg <br />
+            {week3w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
-            {week4w1Formatted}, {week4w2Formatted},{week4w3Formatted}
+            3-5 x 5/ 75%
+            <br />
+            {week4w1Formatted}kg <br />
+            {week4w2Formatted}kg <br />
+            {week4w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
-            {week5w1Formatted}, {week5w2Formatted},{week5w3Formatted}
+            3-5 x 3/ 85%
+            <br />
+            {week5w1Formatted}kg <br />
+            {week5w2Formatted}kg <br />
+            {week5w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
-            {week6w1Formatted}, {week6w2Formatted},{week6w3Formatted}
+            3-4 x 1-2/ 95% <br />
+            {week6w1Formatted}kg <br />
+            {week6w2Formatted}kg <br />
+            {week6w3Formatted}kg <br />
           </td>
         </tr>
         <tr>
@@ -132,27 +145,39 @@ function Table({ input1, input2, input3 }) {
           <td>3</td>
           <td>
             3-5 x 5/ <br />
-            {week1w1Formatted}, {week1w2Formatted},{week1w3Formatted}
+            {week1w1Formatted}kg <br />
+            {week1w2Formatted}kg <br />
+            {week1w3Formatted}kg <br />
           </td>
           <td>
             3-5 x 5/ <br />
-            {week2w1Formatted}, {week2w2Formatted},{week2w3Formatted}
+            {week2w1Formatted}kg <br />
+            {week2w2Formatted}kg <br />
+            {week2w3Formatted}kg <br />
           </td>
           <td>
             3-5 x 5/ <br />
-            {week3w1Formatted}, {week3w2Formatted},{week3w3Formatted}
+            {week3w1Formatted}kg <br />
+            {week3w2Formatted}kg <br />
+            {week3w3Formatted}kg <br />
           </td>
           <td>
             3-5 x 5/ <br />
-            {week4w1Formatted}, {week4w2Formatted},{week4w3Formatted}
+            {week4w1Formatted}kg <br />
+            {week4w2Formatted}kg <br />
+            {week4w3Formatted}kg <br />
           </td>
           <td>
             3-5 x 5/ <br />
-            {week5w1Formatted}, {week5w2Formatted},{week5w3Formatted}
+            {week5w1Formatted}kg <br />
+            {week5w2Formatted}kg <br />
+            {week5w3Formatted}kg <br />
           </td>
           <td>
             3-5 x 5/ <br />
-            {week6w1Formatted}, {week6w2Formatted},{week6w3Formatted}
+            {week6w1Formatted}kg <br />
+            {week6w2Formatted}kg <br />
+            {week6w3Formatted}kg <br />
           </td>
         </tr>
         <tr>
@@ -165,27 +190,39 @@ function Table({ input1, input2, input3 }) {
           <td>5</td>
           <td>
             3-5 x 5/ <br />
-            {week1w1Formatted}, {week1w2Formatted},{week1w3Formatted}
+            {week1w1Formatted}kg <br />
+            {week1w2Formatted}kg <br />
+            {week1w3Formatted}kg <br />
           </td>
           <td>
             3-5 x 5/ <br />
-            {week2w1Formatted}, {week2w2Formatted},{week2w3Formatted}
+            {week2w1Formatted}kg <br />
+            {week2w2Formatted}kg <br />
+            {week2w3Formatted}kg <br />
           </td>
           <td>
             3-5 x 5/ <br />
-            {week3w1Formatted}, {week3w2Formatted},{week3w3Formatted}
+            {week3w1Formatted}kg <br />
+            {week3w2Formatted}kg <br />
+            {week3w3Formatted}kg <br />
           </td>
           <td>
             3-5 x 5/ <br />
-            {week4w1Formatted}, {week4w2Formatted},{week4w3Formatted}
+            {week4w1Formatted}kg <br />
+            {week4w2Formatted}kg <br />
+            {week4w3Formatted}kg <br />
           </td>
           <td>
             3-5 x 5/ <br />
-            {week5w1Formatted}, {week5w2Formatted},{week5w3Formatted}
+            {week5w1Formatted}kg <br />
+            {week5w2Formatted}kg <br />
+            {week5w3Formatted}kg <br />
           </td>
           <td>
             3-5 x 5/ <br />
-            {week6w1Formatted}, {week6w2},{week6w3}
+            {week6w1Formatted}kg <br />
+            {week6w2}kg <br />
+            {week6w3}kg <br />
           </td>
         </tr>
         <tr>
