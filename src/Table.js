@@ -192,7 +192,7 @@ function Table({ input1, input2, input3 }) {
           {/* DAY 5 */}
           <td>5</td>
           <td>
-            3-5 x 5/ 75%
+            3-5 x 5/ 70%
             <br />
             {week1w1Formatted}kg <br />
             {week1w2Formatted}kg <br />
