@@ -91,7 +91,7 @@ function Table({ input1, input2, input3 }) {
       </thead>
       <tbody>
         <tr>
-          {/* TRAINING HERE */}
+          {/* DAY 1 */}
           <td>1</td>
           <td>
             3-5 x 5/ 70%
@@ -108,7 +108,7 @@ function Table({ input1, input2, input3 }) {
             {week2w3Formatted}kg <br />
           </td>
           <td>
-            3-4 x 5/ 90%
+            3-4 x 3/ 90%
             <br />
             {week3w1Formatted}kg <br />
             {week3w2Formatted}kg <br />
@@ -136,45 +136,48 @@ function Table({ input1, input2, input3 }) {
           </td>
         </tr>
         <tr>
-          {/* BLANK DAY FOR CARDIO */}
-          <td>2</td>
-          {/* BLANK DAY FOR CARDIO */}
+          <td>-</td>
         </tr>
         <tr>
-          {/* TRAINING HERE */}
           <td>3</td>
+          {/* DAY 3 */}
           <td>
-            3-5 x 5/ <br />
+            3-5 x 5/ 70%
+            <br />
             {week1w1Formatted}kg <br />
             {week1w2Formatted}kg <br />
             {week1w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
+            3-5 x 5/ 80%
+            <br />
             {week2w1Formatted}kg <br />
             {week2w2Formatted}kg <br />
             {week2w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
+            3-4 x 3/ 90% <br />
             {week3w1Formatted}kg <br />
             {week3w2Formatted}kg <br />
             {week3w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
+            3-5 x 5/ 75%
+            <br />
             {week4w1Formatted}kg <br />
             {week4w2Formatted}kg <br />
             {week4w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
+            3-5 x 3/ 85%
+            <br />
             {week5w1Formatted}kg <br />
             {week5w2Formatted}kg <br />
             {week5w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
+            3-4 x 1-2/ 95%
+            <br />
             {week6w1Formatted}kg <br />
             {week6w2Formatted}kg <br />
             {week6w3Formatted}kg <br />
@@ -182,57 +185,63 @@ function Table({ input1, input2, input3 }) {
         </tr>
         <tr>
           {/* BLANK DAY FOR CARDIO */}
-          <td>4</td>
+          <td>-</td>
           {/* BLANK DAY FOR CARDIO */}
         </tr>
         <tr>
-          {/* TRAINING HERE */}
+          {/* DAY 5 */}
           <td>5</td>
           <td>
-            3-5 x 5/ <br />
+            3-5 x 5/ 75%
+            <br />
             {week1w1Formatted}kg <br />
             {week1w2Formatted}kg <br />
             {week1w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
+            3-5 x 5/ 80%
+            <br />
             {week2w1Formatted}kg <br />
             {week2w2Formatted}kg <br />
             {week2w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
+            3-4 x 3/ 90%
+            <br />
             {week3w1Formatted}kg <br />
             {week3w2Formatted}kg <br />
             {week3w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
+            3-5 x 5/ 75%
+            <br />
             {week4w1Formatted}kg <br />
             {week4w2Formatted}kg <br />
             {week4w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
+            3-5 x 3/ 85%
+            <br />
             {week5w1Formatted}kg <br />
             {week5w2Formatted}kg <br />
             {week5w3Formatted}kg <br />
           </td>
           <td>
-            3-5 x 5/ <br />
+            3-4 x 1-2/ 95%
+            <br />
             {week6w1Formatted}kg <br />
-            {week6w2}kg <br />
-            {week6w3}kg <br />
+            {week6w2Formatted}kg <br />
+            {week6w3Formatted}kg <br />
           </td>
         </tr>
         <tr>
           {/* BLANK DAY FOR CARDIO */}
-          <td>6</td>
+          {/* <td>6</td> */}
           {/* BLANK DAY FOR CARDIO */}
         </tr>
         <tr>
           {/* BLANK DAY FOR CARDIO */}
-          <td>7</td>
+          {/* <td>7</td> */}
           {/* BLANK DAY FOR CARDIO */}
         </tr>
       </tbody>
