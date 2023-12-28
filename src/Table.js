@@ -130,7 +130,8 @@ function Table({ input1, input2, input3 }) {
             {week5w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-4 x 1-2/ 95% <br /> <br />
+            3-4 x 1-2/ 95%
+            <br /> <br />
             {week6w1Formatted} &nbsp;&nbsp;
             {week6w2Formatted} &nbsp;&nbsp;
             {week6w3Formatted} &nbsp;&nbsp;
@@ -164,24 +165,29 @@ function Table({ input1, input2, input3 }) {
             {week2w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-4 x 3/ 90% <br /> <br />
+            3-4 x 3/ 90%
+            <br /> <br />
             {week3w1Formatted} &nbsp;&nbsp;
             {week3w2Formatted} &nbsp;&nbsp;
             {week3w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-5 x 5/ 75% <br /> <br />
+            3-5 x 5/ 75%
+            <br /> <br />
             {week4w1Formatted} &nbsp;&nbsp;
             {week4w2Formatted} &nbsp;&nbsp;
             {week4w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-5 x 3/ 85% <br /> <br />;{week5w1Formatted} &nbsp;&nbsp;
+            3-5 x 3/ 85%
+            <br /> <br />
+            {week5w1Formatted} &nbsp;&nbsp;
             {week5w2Formatted} &nbsp;&nbsp;
             {week5w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-4 x 1-2/ 95% <br /> <br />
+            3-4 x 1-2/ 95%
+            <br /> <br />
             {week6w1Formatted} &nbsp;&nbsp;
             {week6w2Formatted} &nbsp;&nbsp;
             {week6w3Formatted} &nbsp;&nbsp;
@@ -228,7 +234,8 @@ function Table({ input1, input2, input3 }) {
             {week4w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-5 x 3/ 85% <br /> <br />
+            3-5 x 3/ 85%
+            <br /> <br />
             {week5w1Formatted} &nbsp;&nbsp;
             {week5w2Formatted} &nbsp;&nbsp;
             {week5w3Formatted} &nbsp;&nbsp;
