@@ -17,14 +17,17 @@ function App() {
         <a href="https://www.amazon.co.uk/Tactical-Barbell-Definitive-Strength-Operational-ebook/dp/B01G195QU2/ref=sr_1_1?crid=2HRFB8QHNA1CF&keywords=tactical+barbell&qid=1703245189&sprefix=tactical+barbell%2Caps%2C122&sr=8-1">
           <img src={logo} className="App-logo" alt="logo" />
         </a>
+
         <p>Operator Template</p>
       </header>
-      <Input
-        onInputChange1={setInputValue1}
-        onInputChange2={setInputValue2}
-        onInputChange3={setInputValue3}
-      />
-      <Table input1={inputValue1} input2={inputValue2} input3={inputValue3} />
+      <body>
+        <Input
+          onInputChange1={setInputValue1}
+          onInputChange2={setInputValue2}
+          onInputChange3={setInputValue3}
+        />
+        <Table input1={inputValue1} input2={inputValue2} input3={inputValue3} />
+      </body>
     </div>
   );
 }
