@@ -32,13 +32,24 @@
 }
 
 .Table {
-
+  border-collapse: collapse;
   width: 100%;
   font-size: 1.2em;
+  padding: 8px;
+  border: 2px solid white;
+}
+.Table th {
+  border:1px solid white;
+  
+}
+.Table td {
+  border:1px solid white;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  height: 80px; /* Set a fixed height for cells */
+  vertical-align: center; /* Align content to the top */
+
 }
 
-
-.Input {
-
-
-}

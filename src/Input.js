@@ -16,17 +16,17 @@ function Input({ onInputChange1, onInputChange2, onInputChange3 }) {
     <div className="Input">
       <input
         type="number"
-        placeholder="Enter your 1 REP MAX"
+        placeholder="1 REP MAX (kg/lbs)"
         onChange={handleInputChange1}
       />
       <input
         type="number"
-        placeholder="Enter your 1 REP MAX"
+        placeholder="1 REP MAX (kg/lbs)"
         onChange={handleInputChange2}
       />
       <input
         type="number"
-        placeholder="Enter your 1 REP MAX"
+        placeholder="1 REP MAX (kg/lbs)"
         onChange={handleInputChange3}
       />
     </div>

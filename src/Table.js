@@ -96,153 +96,173 @@ function Table({ input1, input2, input3 }) {
           <td>
             3-5 x 5/ 70%
             <br />
-            {week1w1Formatted}kg <br />
-            {week1w2Formatted}kg <br />
-            {week1w3Formatted}kg <br />
+            <br />
+            {week1w1Formatted}&nbsp;&nbsp;
+            {week1w2Formatted}&nbsp;&nbsp;
+            {week1w3Formatted}&nbsp;&nbsp;
           </td>
           <td>
             3-5 x 5/ 80%
-            <br />
-            {week2w1Formatted}kg <br />
-            {week2w2Formatted}kg <br />
-            {week2w3Formatted}kg <br />
+            <br /> <br />
+            {week2w1Formatted} &nbsp;&nbsp;
+            {week2w2Formatted} &nbsp;&nbsp;
+            {week2w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
             3-4 x 3/ 90%
-            <br />
-            {week3w1Formatted}kg <br />
-            {week3w2Formatted}kg <br />
-            {week3w3Formatted}kg <br />
+            <br /> <br />
+            {week3w1Formatted} &nbsp;&nbsp;
+            {week3w2Formatted} &nbsp;&nbsp;
+            {week3w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
             3-5 x 5/ 75%
-            <br />
-            {week4w1Formatted}kg <br />
-            {week4w2Formatted}kg <br />
-            {week4w3Formatted}kg <br />
+            <br /> <br />
+            {week4w1Formatted} &nbsp;&nbsp;
+            {week4w2Formatted} &nbsp;&nbsp;
+            {week4w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
             3-5 x 3/ 85%
-            <br />
-            {week5w1Formatted}kg <br />
-            {week5w2Formatted}kg <br />
-            {week5w3Formatted}kg <br />
+            <br /> <br />
+            {week5w1Formatted} &nbsp;&nbsp;
+            {week5w2Formatted} &nbsp;&nbsp;
+            {week5w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-4 x 1-2/ 95% <br />
-            {week6w1Formatted}kg <br />
-            {week6w2Formatted}kg <br />
-            {week6w3Formatted}kg <br />
+            3-4 x 1-2/ 95% <br /> <br />
+            {week6w1Formatted} &nbsp;&nbsp;
+            {week6w2Formatted} &nbsp;&nbsp;
+            {week6w3Formatted} &nbsp;&nbsp;
           </td>
         </tr>
         <tr>
-          <td>-</td>
+          <td>2</td>
+
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
         </tr>
         <tr>
           <td>3</td>
           {/* DAY 3 */}
           <td>
             3-5 x 5/ 70%
-            <br />
-            {week1w1Formatted}kg <br />
-            {week1w2Formatted}kg <br />
-            {week1w3Formatted}kg <br />
+            <br /> <br />
+            {week1w1Formatted} &nbsp;&nbsp;
+            {week1w2Formatted} &nbsp;&nbsp;
+            {week1w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
             3-5 x 5/ 80%
-            <br />
-            {week2w1Formatted}kg <br />
-            {week2w2Formatted}kg <br />
-            {week2w3Formatted}kg <br />
+            <br /> <br />
+            {week2w1Formatted} &nbsp;&nbsp;
+            {week2w2Formatted} &nbsp;&nbsp;
+            {week2w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-4 x 3/ 90% <br />
-            {week3w1Formatted}kg <br />
-            {week3w2Formatted}kg <br />
-            {week3w3Formatted}kg <br />
+            3-4 x 3/ 90% <br /> <br />
+            {week3w1Formatted} &nbsp;&nbsp;
+            {week3w2Formatted} &nbsp;&nbsp;
+            {week3w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-5 x 5/ 75%
-            <br />
-            {week4w1Formatted}kg <br />
-            {week4w2Formatted}kg <br />
-            {week4w3Formatted}kg <br />
+            3-5 x 5/ 75% <br /> <br />
+            {week4w1Formatted} &nbsp;&nbsp;
+            {week4w2Formatted} &nbsp;&nbsp;
+            {week4w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-5 x 3/ 85%
-            <br />
-            {week5w1Formatted}kg <br />
-            {week5w2Formatted}kg <br />
-            {week5w3Formatted}kg <br />
+            3-5 x 3/ 85% <br /> <br />;{week5w1Formatted} &nbsp;&nbsp;
+            {week5w2Formatted} &nbsp;&nbsp;
+            {week5w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-4 x 1-2/ 95%
-            <br />
-            {week6w1Formatted}kg <br />
-            {week6w2Formatted}kg <br />
-            {week6w3Formatted}kg <br />
+            3-4 x 1-2/ 95% <br /> <br />
+            {week6w1Formatted} &nbsp;&nbsp;
+            {week6w2Formatted} &nbsp;&nbsp;
+            {week6w3Formatted} &nbsp;&nbsp;
           </td>
         </tr>
         <tr>
           {/* BLANK DAY FOR CARDIO */}
-          <td>-</td>
+          <td>4</td>
           {/* BLANK DAY FOR CARDIO */}
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
         </tr>
         <tr>
           {/* DAY 5 */}
           <td>5</td>
           <td>
             3-5 x 5/ 70%
-            <br />
-            {week1w1Formatted}kg <br />
-            {week1w2Formatted}kg <br />
-            {week1w3Formatted}kg <br />
+            <br /> <br />
+            {week1w1Formatted} &nbsp;&nbsp;
+            {week1w2Formatted} &nbsp;&nbsp;
+            {week1w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
             3-5 x 5/ 80%
-            <br />
-            {week2w1Formatted}kg <br />
-            {week2w2Formatted}kg <br />
-            {week2w3Formatted}kg <br />
+            <br /> <br />
+            {week2w1Formatted} &nbsp;&nbsp;
+            {week2w2Formatted} &nbsp;&nbsp;
+            {week2w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-4 x 3/ 90%
-            <br />
-            {week3w1Formatted}kg <br />
-            {week3w2Formatted}kg <br />
-            {week3w3Formatted}kg <br />
+            3-4 x 3/ 90% <br /> <br />
+            {week3w1Formatted} &nbsp;&nbsp;
+            {week3w2Formatted} &nbsp;&nbsp;
+            {week3w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-5 x 5/ 75%
-            <br />
-            {week4w1Formatted}kg <br />
-            {week4w2Formatted}kg <br />
-            {week4w3Formatted}kg <br />
+            3-5 x 5/ 75% <br /> <br />
+            {week4w1Formatted} &nbsp;&nbsp;
+            {week4w2Formatted} &nbsp;&nbsp;
+            {week4w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
-            3-5 x 3/ 85%
-            <br />
-            {week5w1Formatted}kg <br />
-            {week5w2Formatted}kg <br />
-            {week5w3Formatted}kg <br />
+            3-5 x 3/ 85% <br /> <br />
+            {week5w1Formatted} &nbsp;&nbsp;
+            {week5w2Formatted} &nbsp;&nbsp;
+            {week5w3Formatted} &nbsp;&nbsp;
           </td>
           <td>
             3-4 x 1-2/ 95%
-            <br />
-            {week6w1Formatted}kg <br />
-            {week6w2Formatted}kg <br />
-            {week6w3Formatted}kg <br />
+            <br /> <br />
+            <br /> <br />
+            {week6w1Formatted} &nbsp;&nbsp;
+            {week6w2Formatted} &nbsp;&nbsp;
+            {week6w3Formatted} &nbsp;&nbsp;
           </td>
         </tr>
         <tr>
           {/* BLANK DAY FOR CARDIO */}
-          {/* <td>6</td> */}
+          <td>6</td>
           {/* BLANK DAY FOR CARDIO */}
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
         </tr>
         <tr>
           {/* BLANK DAY FOR CARDIO */}
-          {/* <td>7</td> */}
+          <td>7</td>
           {/* BLANK DAY FOR CARDIO */}
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
         </tr>
       </tbody>
     </table>
