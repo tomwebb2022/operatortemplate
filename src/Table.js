@@ -1,30 +1,80 @@
 import React, { useState, useEffect, useContext } from "react";
 
+const roundTo2Point5 = (weight) => {
+  return Math.round(weight / 2.5) * 2.5;
+};
+
+function formatNumber(num) {
+  // Always limit to 2 decimal places
+  let formatted = num.toFixed(2);
+
+  if (formatted.endsWith("0")) {
+    formatted = formatted.slice(0, -1); // Remove the last character (the trailing zero)
+    if (formatted.endsWith("0")) {
+      formatted = formatted.slice(0, -1); // Remove the second decimal if it's a zero
+    }
+  }
+  return formatted;
+}
 function Table({ input1, input2, input3 }) {
+  // Parse inputs once
+  const input1Num = parseFloat(input1);
+  const input2Num = parseFloat(input2);
+  const input3Num = parseFloat(input3);
+
   // Week 1 of all workouts at 70% of 1RM
-  const week1w1 = input1 * 0.7;
-  const week1w2 = input2 * 0.7;
-  const week1w3 = input3 * 0.7;
+  const week1w1 = roundTo2Point5(input1 * 0.7);
+  const week1w2 = roundTo2Point5(input2 * 0.7);
+  const week1w3 = roundTo2Point5(input3 * 0.7);
+  // Formatting to remove the 0
+  const week1w1Formatted = formatNumber(week1w1);
+  const week1w2Formatted = formatNumber(week1w2);
+  const week1w3Formatted = formatNumber(week1w3);
+
   //  Week 2 of all workouts at 80% of 1RM
-  const week2w1 = input1 * 0.8;
-  const week2w2 = input2 * 0.8;
-  const week2w3 = input3 * 0.8;
+  const week2w1 = roundTo2Point5(input1 * 0.8);
+  const week2w2 = roundTo2Point5(input2 * 0.8);
+  const week2w3 = roundTo2Point5(input3 * 0.8);
+  // Formatting to remove the 0
+  const week2w1Formatted = formatNumber(week2w1);
+  const week2w2Formatted = formatNumber(week2w2);
+  const week2w3Formatted = formatNumber(week2w3);
+
   //  Week 3 of all workouts at 90% of 1RM
-  const week3w1 = input1 * 0.9;
-  const week3w2 = input2 * 0.9;
-  const week3w3 = input3 * 0.9;
+  const week3w1 = roundTo2Point5(input1 * 0.9);
+  const week3w2 = roundTo2Point5(input2 * 0.9);
+  const week3w3 = roundTo2Point5(input3 * 0.9);
+  // Formatting to remove the 0
+  const week3w1Formatted = formatNumber(week3w1);
+  const week3w2Formatted = formatNumber(week3w2);
+  const week3w3Formatted = formatNumber(week3w3);
+
   //  Week 4 of all workouts at 75% of 1RM
-  const week4w1 = input1 * 0.75;
-  const week4w2 = input2 * 0.75;
-  const week4w3 = input3 * 0.75;
+  const week4w1 = roundTo2Point5(input1 * 0.75);
+  const week4w2 = roundTo2Point5(input2 * 0.75);
+  const week4w3 = roundTo2Point5(input3 * 0.75);
+  // Formatting to remove the 0
+  const week4w1Formatted = formatNumber(week4w1);
+  const week4w2Formatted = formatNumber(week4w2);
+  const week4w3Formatted = formatNumber(week4w3);
+
   // Week 5 of all workouts at 85% of 1RM
-  const week5w1 = input1 * 0.85;
-  const week5w2 = input2 * 0.85;
-  const week5w3 = input3 * 0.85;
+  const week5w1 = roundTo2Point5(input1 * 0.85);
+  const week5w2 = roundTo2Point5(input2 * 0.85);
+  const week5w3 = roundTo2Point5(input3 * 0.85);
+  // Formatting to remove the 0
+  const week5w1Formatted = formatNumber(week5w1);
+  const week5w2Formatted = formatNumber(week5w2);
+  const week5w3Formatted = formatNumber(week5w3);
+
   // Week 6 of all workouts at 95% of 1RM
-  const week6w1 = input1 * 0.95;
-  const week6w2 = input2 * 0.95;
-  const week6w3 = input3 * 0.95;
+  const week6w1 = roundTo2Point5(input1 * 0.95);
+  const week6w2 = roundTo2Point5(input2 * 0.95);
+  const week6w3 = roundTo2Point5(input3 * 0.95);
+  // Formatting to remove the 0
+  const week6w1Formatted = formatNumber(week6w1);
+  const week6w2Formatted = formatNumber(week6w2);
+  const week6w3Formatted = formatNumber(week6w3);
   // checking everything is working
   return (
     <table className="Table">
@@ -44,28 +94,32 @@ function Table({ input1, input2, input3 }) {
           {/* TRAINING HERE */}
           <td>1</td>
           <td>
-            3-5 x 5/ <br />
-            {week1w1}, {week1w2},{week1w3}
+            3-5 x 5/ 70%
+            <br />
+            {week1w1Formatted}kg <br />
+            {week1w2Formatted}kg <br />
+            {week1w3Formatted}kg
           </td>
           <td>
             3-5 x 5/ <br />
-            {week2w1}, {week2w2},{week2w3}
+            {week2w1Formatted} {week2w2Formatted}
+            {week2w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week3w1}, {week3w2},{week3w3}
+            {week3w1Formatted}, {week3w2Formatted},{week3w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week4w1}, {week4w2},{week4w3}
+            {week4w1Formatted}, {week4w2Formatted},{week4w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week5w1}, {week5w2},{week5w3}
+            {week5w1Formatted}, {week5w2Formatted},{week5w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week6w1}, {week6w2},{week6w3}
+            {week6w1Formatted}, {week6w2Formatted},{week6w3Formatted}
           </td>
         </tr>
         <tr>
@@ -78,27 +132,27 @@ function Table({ input1, input2, input3 }) {
           <td>3</td>
           <td>
             3-5 x 5/ <br />
-            {week1w1}, {week1w2},{week1w3}
+            {week1w1Formatted}, {week1w2Formatted},{week1w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week2w1}, {week2w2},{week2w3}
+            {week2w1Formatted}, {week2w2Formatted},{week2w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week3w1}, {week3w2},{week3w3}
+            {week3w1Formatted}, {week3w2Formatted},{week3w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week4w1}, {week4w2},{week4w3}
+            {week4w1Formatted}, {week4w2Formatted},{week4w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week5w1}, {week5w2},{week5w3}
+            {week5w1Formatted}, {week5w2Formatted},{week5w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week6w1}, {week6w2},{week6w3}
+            {week6w1Formatted}, {week6w2Formatted},{week6w3Formatted}
           </td>
         </tr>
         <tr>
@@ -111,27 +165,27 @@ function Table({ input1, input2, input3 }) {
           <td>5</td>
           <td>
             3-5 x 5/ <br />
-            {week1w1}, {week1w2},{week1w3}
+            {week1w1Formatted}, {week1w2Formatted},{week1w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week2w1}, {week2w2},{week2w3}
+            {week2w1Formatted}, {week2w2Formatted},{week2w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week3w1}, {week3w2},{week3w3}
+            {week3w1Formatted}, {week3w2Formatted},{week3w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week4w1}, {week4w2},{week4w3}
+            {week4w1Formatted}, {week4w2Formatted},{week4w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week5w1}, {week5w2},{week5w3}
+            {week5w1Formatted}, {week5w2Formatted},{week5w3Formatted}
           </td>
           <td>
             3-5 x 5/ <br />
-            {week6w1}, {week6w2},{week6w3}
+            {week6w1Formatted}, {week6w2},{week6w3}
           </td>
         </tr>
         <tr>

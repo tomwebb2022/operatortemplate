@@ -30,3 +30,9 @@ function App() {
 }
 
 export default App;
+
+/*
+things to do:
+change the weight so it has to be a possible weight to use.
+2.5kg increments
+*/
