@@ -10,7 +10,7 @@ function App() {
   const [inputValue1, setInputValue1] = useState("");
   const [inputValue2, setInputValue2] = useState("");
   const [inputValue3, setInputValue3] = useState("");
-
+  const handleButtonClick = () => {};
   return (
     <div className="App">
       <header className="App-header">
@@ -26,6 +26,7 @@ function App() {
           onInputChange2={setInputValue2}
           onInputChange3={setInputValue3}
         />
+        {/* <button onClick={handleButtonClick}>Convert to lbs</button> */}
         <Table input1={inputValue1} input2={inputValue2} input3={inputValue3} />
         {/* Displaying the link with text */}
         <p>

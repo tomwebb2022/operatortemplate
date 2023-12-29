@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 
 const roundTo2Point5 = (weight) => {
-  return Math.round(weight / 2.5) * 2.5;
+  return Math.round(weight / 5) * 5;
 };
 
 function formatNumber(num) {
