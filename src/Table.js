@@ -243,7 +243,6 @@ function Table({ input1, input2, input3 }) {
           <td>
             3-4 x 1-2/ 95%
             <br /> <br />
-            <br /> <br />
             {week6w1Formatted} &nbsp;&nbsp;
             {week6w2Formatted} &nbsp;&nbsp;
             {week6w3Formatted} &nbsp;&nbsp;
