@@ -57,3 +57,7 @@ a:hover {
   /* Optional hover effect */
   color: lightgray; /* Change color on hover */
 }
+
+body {
+  background-color: #282c34;
+}
