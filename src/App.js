@@ -27,6 +27,17 @@ function App() {
           onInputChange3={setInputValue3}
         />
         <Table input1={inputValue1} input2={inputValue2} input3={inputValue3} />
+        {/* Displaying the link with text */}
+        <p>
+          If you find this useful, consider{" "}
+          <a
+            href="https://www.buymeacoffee.com/goosesquad"
+            target="_blank"
+            rel="noopener noreferrer">
+            {/* style={{ color: "white" }} */}
+            buying me a pint.
+          </a>
+        </p>
       </body>
     </div>
   );

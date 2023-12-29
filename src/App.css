@@ -48,3 +48,12 @@
   padding: 8px;
 }
 
+a {
+  color: red;
+  text-decoration: none; /* Optionally remove underline */
+}
+
+a:hover {
+  /* Optional hover effect */
+  color: lightgray; /* Change color on hover */
+}
