@@ -22,10 +22,14 @@ function Table({ input1, input2, input3 }) {
   const input2Num = parseFloat(input2);
   const input3Num = parseFloat(input3);
 
+  const adjustedInput1 = input1 * 0.9; // Subtracting 10%
+  const adjustedInput2 = input2 * 0.9; // Subtracting 10%
+  const adjustedInput3 = input3 * 0.9; // Subtracting 10%
+
   // Week 1 of all workouts at 70% of 1RM
-  const week1w1 = roundTo2Point5(input1 * 0.7);
-  const week1w2 = roundTo2Point5(input2 * 0.7);
-  const week1w3 = roundTo2Point5(input3 * 0.7);
+  const week1w1 = roundTo2Point5(adjustedInput1 * 0.7);
+  const week1w2 = roundTo2Point5(adjustedInput2 * 0.7);
+  const week1w3 = roundTo2Point5(adjustedInput3 * 0.7);
   // Formatting to remove the 0
   const week1w1Formatted = formatNumber(week1w1);
   const week1w2Formatted = formatNumber(week1w2);
@@ -33,8 +37,8 @@ function Table({ input1, input2, input3 }) {
 
   //  Week 2 of all workouts at 80% of 1RM
   const week2w1 = roundTo2Point5(input1 * 0.8);
-  const week2w2 = roundTo2Point5(input2 * 0.8);
-  const week2w3 = roundTo2Point5(input3 * 0.8);
+  const week2w2 = roundTo2Point5(adjustedInput2 * 0.8);
+  const week2w3 = roundTo2Point5(adjustedInput3 * 0.8);
   // Formatting to remove the 0
   const week2w1Formatted = formatNumber(week2w1);
   const week2w2Formatted = formatNumber(week2w2);
@@ -42,8 +46,8 @@ function Table({ input1, input2, input3 }) {
 
   //  Week 3 of all workouts at 90% of 1RM
   const week3w1 = roundTo2Point5(input1 * 0.9);
-  const week3w2 = roundTo2Point5(input2 * 0.9);
-  const week3w3 = roundTo2Point5(input3 * 0.9);
+  const week3w2 = roundTo2Point5(adjustedInput2 * 0.9);
+  const week3w3 = roundTo2Point5(adjustedInput3 * 0.9);
   // Formatting to remove the 0
   const week3w1Formatted = formatNumber(week3w1);
   const week3w2Formatted = formatNumber(week3w2);
@@ -51,8 +55,8 @@ function Table({ input1, input2, input3 }) {
 
   //  Week 4 of all workouts at 75% of 1RM
   const week4w1 = roundTo2Point5(input1 * 0.75);
-  const week4w2 = roundTo2Point5(input2 * 0.75);
-  const week4w3 = roundTo2Point5(input3 * 0.75);
+  const week4w2 = roundTo2Point5(adjustedInput2 * 0.75);
+  const week4w3 = roundTo2Point5(adjustedInput3 * 0.75);
   // Formatting to remove the 0
   const week4w1Formatted = formatNumber(week4w1);
   const week4w2Formatted = formatNumber(week4w2);
@@ -60,8 +64,8 @@ function Table({ input1, input2, input3 }) {
 
   // Week 5 of all workouts at 85% of 1RM
   const week5w1 = roundTo2Point5(input1 * 0.85);
-  const week5w2 = roundTo2Point5(input2 * 0.85);
-  const week5w3 = roundTo2Point5(input3 * 0.85);
+  const week5w2 = roundTo2Point5(adjustedInput2 * 0.85);
+  const week5w3 = roundTo2Point5(adjustedInput3 * 0.85);
   // Formatting to remove the 0
   const week5w1Formatted = formatNumber(week5w1);
   const week5w2Formatted = formatNumber(week5w2);
@@ -69,8 +73,8 @@ function Table({ input1, input2, input3 }) {
 
   // Week 6 of all workouts at 95% of 1RM
   const week6w1 = roundTo2Point5(input1 * 0.95);
-  const week6w2 = roundTo2Point5(input2 * 0.95);
-  const week6w3 = roundTo2Point5(input3 * 0.95);
+  const week6w2 = roundTo2Point5(adjustedInput2 * 0.95);
+  const week6w3 = roundTo2Point5(adjustedInput3 * 0.95);
   // Formatting to remove the 0
   const week6w1Formatted = formatNumber(week6w1);
   const week6w2Formatted = formatNumber(week6w2);
