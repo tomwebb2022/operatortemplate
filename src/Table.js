@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useContext } from "react";
 
-const roundTo2Point5 = (weight) => {
-  return Math.round(weight / 5) * 5;
-};
+// function Converter({ input1, input2, input3 }) {
+
+//   };
 
 function formatNumber(num) {
   // Always limit to 2 decimal places
@@ -16,11 +16,17 @@ function formatNumber(num) {
   }
   return formatted;
 }
+const roundTo2Point5 = (weight) => {
+  return Math.round(weight / 2.5) * 2.5;
+};
 function Table({ input1, input2, input3 }) {
   // Parse inputs once
-  const input1Num = parseFloat(input1);
-  const input2Num = parseFloat(input2);
-  const input3Num = parseFloat(input3);
+
+  // const [rountTo, setRoundTo] = useState(5);
+
+  // const roundTo2Point5 = (weight) => {
+  //   return Math.round(weight / roundTo) * roundTo;
+  // };
 
   const adjustedInput1 = input1 * 0.9; // Subtracting 10%
   const adjustedInput2 = input2 * 0.9; // Subtracting 10%

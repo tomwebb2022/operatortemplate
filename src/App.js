@@ -11,6 +11,7 @@ function App() {
   const [inputValue2, setInputValue2] = useState("");
   const [inputValue3, setInputValue3] = useState("");
   const handleButtonClick = () => {};
+
   return (
     <div className="App">
       <header className="App-header">
@@ -26,6 +27,8 @@ function App() {
           onInputChange2={setInputValue2}
           onInputChange3={setInputValue3}
         />
+        {/* <button onClick={() => setRoundTo(5)}>Round to 5</button>
+        <button onClick={() => setRoundTo(2.5)}>Round to 2.5</button> */}
         {/* <button onClick={handleButtonClick}>Convert to lbs</button> */}
         <Table input1={inputValue1} input2={inputValue2} input3={inputValue3} />
         {/* Displaying the link with text */}
@@ -38,6 +41,12 @@ function App() {
             {/* style={{ color: "white" }} */}
             buying me a pint.
           </a>
+        </p>
+        <p>
+          {" "}
+          Note: This is no an offical product from Tactical Barbell. You can
+          access the book by clickin the logo. This website is made by{" "}
+          <a href="https://tomwebbsite.vercel.app"> me </a>
         </p>
       </body>
     </div>
