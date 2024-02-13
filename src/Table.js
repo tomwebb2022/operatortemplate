@@ -29,9 +29,9 @@ function Table({ input1, input2, input3 }) {
   // };
 
   // below is for training max which isn't important at the start of these plans
-  const adjustedInput1 = input1; // Subtracting 10%
-  const adjustedInput2 = input2; // Subtracting 10%
-  const adjustedInput3 = input3; // Subtracting 10%
+  const adjustedInput1 = input1 * 0.9; // Subtracting 10%
+  const adjustedInput2 = input2 * 0.9; // Subtracting 10%
+  const adjustedInput3 = input3 * 0.9; // Subtracting 10%
 
   // Week 1 of all workouts at 70% of 1RM
   const week1w1 = roundTo2Point5(adjustedInput1 * 0.7);
